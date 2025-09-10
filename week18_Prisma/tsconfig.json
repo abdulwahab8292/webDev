@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    // 📁 File Layout
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    // 🌐 Environment Settings
+    "module": "commonjs",
+    "target": "es2020",
+    "lib": ["es2020", "dom"],         // Add DOM for frontend compatibility if needed
+    "moduleResolution": "node",       // Ensures Node-style resolution for imports
+    "esModuleInterop": true,          // Allows default imports from CommonJS modules
+    "resolveJsonModule": true,        // Enables importing .json files directly
+
+    // 🧠 Type Support
+    "types": ["node"],                // Load Node types
+    "typeRoots": ["./node_modules/@types", "./src/types"], // Include custom global types
+
+    // 🛠 Output Options
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    // 🔒 Stricter Typechecking
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+
+    // 🧹 Performance & Compatibility
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src"],                 // Ensures all your code is compiled
+  "exclude": ["node_modules", "dist"] // Avoids compiling unnecessary folders
+}

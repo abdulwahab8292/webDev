@@ -1,0 +1,13 @@
+{
+  "name": "4.1node.js-and-http",
+  "version": "1.0.0",
+  "main": "fsAndPath.js",
+  "scripts": {
+    "start": "node fsAndPath.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

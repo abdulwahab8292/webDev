@@ -1,0 +1,1 @@
+{"root":["./global.d.ts","./src/config.ts","./src/db.ts","./src/index.ts","./src/authentication/userauth.ts","./src/validation/authvalidation.ts","./src/validation/contentvalidation.ts"],"version":"5.8.2"}
